@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/help_friend"
+        android:title="@string/ask_a_friend"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/help_web"
+        android:title="@string/ask_the_web"
+        app:showAsAction="never"
+        />
+
+
+</menu>

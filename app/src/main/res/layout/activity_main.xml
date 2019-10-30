@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:hint="@string/player_name_enter"
+        android:background="@color/colorText"
+        android:textSize="30sp"
+        android:inputType="textAutoCorrect"
+        android:id="@+id/queryET"
+        android:textColor="@color/colorPrimaryDark"
+        android:imeOptions="actionGo"
+        android:gravity="center_vertical|center_horizontal"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/queryET"
+        android:layout_marginBottom="60dp"
+        android:text="@string/player_name_enter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorText"
+        android:textSize="20sp" />
+
+</RelativeLayout>
