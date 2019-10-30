@@ -18,13 +18,13 @@ of diffrent Objects and libraries
 
 ## Main Goal
 
--its a basic app that was built as part of a final project 
--it mainly shows the use of:
-  -the use of ListView including its adapter
-  -the use of SQLiteOpenHelper as the DB for the scores
-  -intents (data bundle)
-  -xml shapes and selectors
-  -diffrent system ACTIONs
+- its a basic app that was built as part of a final project 
+- it mainly shows the use of:
+  - the use of ListView including its adapter
+  - the use of SQLiteOpenHelper as the DB for the scores
+  - intents (data bundle)
+  - xml shapes and selectors
+  - diffrent system ACTIONs
 ---
 
 ## Installation
